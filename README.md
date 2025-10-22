@@ -49,9 +49,9 @@ docker run -p 8080:8080 hello-world:local
 
 ## Related Repositories
 
-- Source: hello-world-app (this repo)
+- Source: hello-world (this repo)
 - Config DEV: hello-world-config-dev
 - Config QA: hello-world-config-qa
 - Config STAGING: hello-world-config-staging
 - Config PROD: hello-world-config-prod
-- Argo CD Apps: hello-world-apps
+- Argo CD Apps: hello-world-app-of-apps
