@@ -1,4 +1,4 @@
-# Hello World Application
+# hello-world Application
 
 Trunk-based development with event-driven deployments via essesseff platform.
 
