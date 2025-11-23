@@ -40,7 +40,7 @@ func main() {
 </head>
 <body>
     <div class="container">
-        <h1>Hello World! 🚀</h1>
+        <h1>Hello World Go!</h1>
         <div class="info">
             <p><strong>Environment:</strong> <span class="env">%s</span></p>
             <p><strong>Version:</strong> %s</p>
