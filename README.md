@@ -1,6 +1,6 @@
-# hello-world Application
+# hello-world Application (Go)
 
-Trunk-based development with event-driven deployments via essesseff platform.
+Golang (Go) implementation with trunk-based development and event-driven deployments via essesseff platform.
 
 ## Architecture
 
@@ -24,10 +24,10 @@ git push origin feature/my-feature
 # This triggers automatic build and deploy to DEV
 
 # 5. Use essesseff UI for promotions:
-#    - Developer declares Release Candidate
-#    - QA accepts RC → deploys to QA
-#    - QA marks as Stable
-#    - Release Engineer deploys to STAGING/PROD
+#    - Developer declares Release Candidate (RC)
+#    - QA accepts RC → deploys to QA (or alternatively rejects the promotion of the RC to QA)
+#    - QA marks as Stable (or alternatively rejects the promotion to Stable)
+#    - Release Engineer deploys from Stable Release to STAGING/PROD
 ```
 
 ## Local Development
