@@ -81,7 +81,7 @@ jobs:
 
       - name: Upload build metadata
         if: github.event_name == 'push'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: build-metadata
           path: build-metadata/image-info.json
