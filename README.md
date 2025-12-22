@@ -54,4 +54,7 @@ docker run -p 8080:8080 hello-world:local
 - Config QA: hello-world-config-qa
 - Config STAGING: hello-world-config-staging
 - Config PROD: hello-world-config-prod
-- Argo CD Apps: hello-world-app-of-apps
+- Argo CD Config DEV: hello-world-argocd-dev
+- Argo CD Config QA: hello-world-argocd-qa
+- Argo CD Config STAGING: hello-world-argocd-staging
+- Argo CD Config PROD: hello-world-argocd-prod 
