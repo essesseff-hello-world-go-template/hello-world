@@ -1,0 +1,53 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+*.yml
+*.yaml
+
+# Documentation
+README.md
+*.md
+docs/
+LICENSE
+
+# Development files
+Makefile
+docker-compose.yml
+
+# Go test files
+*_test.go
+testdata/
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Go specific
+vendor/
+*.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Misc
+*.log
+*.bak
+*.tmp
+.env
+.env.*
