@@ -32,9 +32,11 @@ git commit -am "Add feature"
 git push origin feature/my-feature
 
 # 4. After review, merge to main
-# This triggers automatic build and deploy to DEV
+# This triggers automatic build
 
-# 5. Use essesseff UI for promotions:
+# 5. *If an essesseff subscriber*, upon successful build completion, Helm config-dev Chart.yaml and values.yaml will be automatically updated with the newly built image tag, triggering Argo CD DEV (see argocd-dev repo) to trigger automated deployment to DEV Kubernetes.
+
+# 6. Use essesseff UI for promotions:
 #    - Developer declares Release Candidate (RC)
 #    - QA accepts RC → deploys to QA (or alternatively rejects the promotion of the RC to QA)
 #    - QA marks as Stable (or alternatively rejects the promotion to Stable)
