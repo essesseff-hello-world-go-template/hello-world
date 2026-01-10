@@ -1,6 +1,6 @@
 # hello-world Application (Go)
 
-Golang (Go) implementation with trunk-based development and event-driven deployments via essesseff platform.
+Golang (Go) implementation with trunk-based development and event-driven deployments via Argo CD to Kubernetes (see related repositories), with optional process orchestration, reporting, etc. via the essesseff DevOps platform.
 
 *Please Note:*
 
@@ -61,10 +61,10 @@ docker run -p 8080:8080 hello-world:local
 ## Related Repositories
 
 - Source: hello-world (this repo)
-- Config DEV: hello-world-config-dev
-- Config QA: hello-world-config-qa
-- Config STAGING: hello-world-config-staging
-- Config PROD: hello-world-config-prod
+- Helm Config DEV: hello-world-config-dev
+- Helm Config QA: hello-world-config-qa
+- Helm Config STAGING: hello-world-config-staging
+- Helm Config PROD: hello-world-config-prod
 - Argo CD Config DEV: hello-world-argocd-dev
 - Argo CD Config QA: hello-world-argocd-qa
 - Argo CD Config STAGING: hello-world-argocd-staging
