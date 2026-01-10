@@ -1,6 +1,6 @@
 # hello-world Application (Go)
 
-Golang (Go) implementation with trunk-based development and event-driven deployments via Argo CD to Kubernetes (see related repositories), with optional process orchestration, reporting, etc. via the essesseff DevOps platform.
+Golang (Go) implementation with trunk-based development and GitOps-driven deployments via Argo CD to Kubernetes (see related repositories), with optional process orchestration, reporting, etc. via the essesseff DevOps platform.
 
 *Please Note:*
 
