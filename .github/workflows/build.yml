@@ -63,16 +63,16 @@ jobs:
           mkdir -p build-metadata
           cat > build-metadata/image-info.json << 'METADATA_EOF'
           {
-            "image": "\${{ env.REGISTRY }}/\${{ env.IMAGE_NAME }}:\${{ steps.tag.outputs.tag }}",
-            "tag": "\${{ steps.tag.outputs.tag }}",
-            "semver": "\${{ steps.semver.outputs.version }}",
-            "git_hash": "\${{ steps.tag.outputs.git_hash }}",
-            "git_sha": "\${{ github.sha }}",
-            "timestamp": "\${{ steps.tag.outputs.timestamp }}",
-            "branch": "\${{ github.ref_name }}",
-            "repository": "\${{ github.repository }}",
-            "actor": "\${{ github.actor }}",
-            "workflow_run_id": "\${{ github.run_id }}"
+            "image": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.tag.outputs.tag }}",
+            "tag": "${{ steps.tag.outputs.tag }}",
+            "semver": "${{ steps.semver.outputs.version }}",
+            "git_hash": "${{ steps.tag.outputs.git_hash }}",
+            "git_sha": "${{ github.sha }}",
+            "timestamp": "${{ steps.tag.outputs.timestamp }}",
+            "branch": "${{ github.ref_name }}",
+            "repository": "${{ github.repository }}",
+            "actor": "${{ github.actor }}",
+            "workflow_run_id": "${{ github.run_id }}"
           }
           METADATA_EOF
 
