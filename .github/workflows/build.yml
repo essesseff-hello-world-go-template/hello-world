@@ -88,4 +88,4 @@ jobs:
         if: github.event_name == 'push'
         run: |
           echo "✅ Build complete - essesseff will auto-deploy to DEV"
-          echo "Image: \${{ env.REGISTRY }}/\${{ env.IMAGE_NAME }}:\${{ steps.tag.outputs.tag }}"
+          echo "Image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.tag.outputs.tag }}"
